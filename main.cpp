@@ -1,4 +1,5 @@
 #include "graph.h"
+#include "bfs.h"
 
 int main() {
 
@@ -20,6 +21,19 @@ int main() {
 
     //Print the graph
     g.printGraph();
+
+    //Test Breadth-First Search
+    BFS bfs;
+
+    vector<string> path1 = bfs.findPath(g, "A", "E");
+    bfs.printPath(path1, "A", "E");
+
+    vector<string> path2 = bfs.findPath(g, "B", "E");
+    bfs.printPath(path2, "B", "E");
+
+    //Test with a vertex that doesn't exist
+    vector<string> path3 = bfs.findPath(g, "A", "Z");
+    bfs.printPath(path3, "A", "Z");
 
     return 0;
 }
