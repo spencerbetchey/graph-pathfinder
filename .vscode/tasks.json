@@ -8,6 +8,7 @@
             "args": [
                 "main.cpp",
                 "graph.cpp",
+                "bfs.cpp",
                 "-o",
                 "pathfinder",
                 ";",
