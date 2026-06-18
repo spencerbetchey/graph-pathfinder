@@ -1,0 +1,9 @@
+vertices
+A B C D E
+
+edges
+A B 4
+A C 2
+B D 5
+C D 1
+D E 3
