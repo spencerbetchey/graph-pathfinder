@@ -24,6 +24,26 @@
                 "executable": "cmd.exe",
                 "args": ["/d", "/c"]
             }
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "tests.cpp",
+                "graph.cpp",
+                "bfs.cpp",
+                "dijkstra.cpp",
+                "fileloader.cpp",
+                "-o",
+                "tests",
+                ";",
+                "./tests"
+            ],
+            "shell": {
+                "executable": "cmd.exe",
+                "args": ["/d", "/c"]
+            }
         }
     ]
 }
