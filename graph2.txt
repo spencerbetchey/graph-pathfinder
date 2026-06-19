@@ -1,0 +1,12 @@
+vertices
+NYC LA Chicago Houston Miami Denver
+
+edges
+NYC Chicago 790
+NYC Miami 1280
+Chicago LA 2020
+Chicago Houston 1090
+Houston Miami 1190
+Houston Denver 1030
+LA Denver 1020
+Miami Denver 2070
